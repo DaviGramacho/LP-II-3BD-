@@ -1,7 +1,7 @@
-package edu.fatec.lp2.exercicio1.model;
+package main.java.edu.fatec.lp2.exercicio1;
 
 public class MsgAudio extends Mensagem {
-    private int duracao; // duração em segundos
+    private int duracao;
 
     public MsgAudio(Contatinho destinatario, String horaEnvio, String conteudo, int duracao) {
         super(destinatario, horaEnvio, conteudo);
